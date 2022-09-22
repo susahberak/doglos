@@ -1,7 +1,7 @@
 name: "Bung Ferry"
 description: "Hanya sebuah blog"
 
-url: 'https://susahberak.github.io/blog' 
+url: 'https://susahberak.github.io/doglos/' 
 baseurl: '/'
 
 markdown: kramdown
