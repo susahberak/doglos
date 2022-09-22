@@ -4,7 +4,10 @@ layout: default
 <h1>{{ page.title }}{{ page.shortUrl }}</h1>
         
 {{ content }}
-        
+ 
+<br>
+<p style="text-align:center;"><a href='{{ site.url }}/'> Beranda</a> | {{ page.title }} </p>       
+
 {% if site.disqus-id %} {% include comments.html %} {% endif %}
 
 
