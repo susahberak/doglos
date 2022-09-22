@@ -1,4 +1,3 @@
-/* CSS GREEN */
 .button-3 {
   appearance: none;
   background-color: #2ea44f;
@@ -50,8 +49,6 @@
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
-
-/* CSS LIGHT */
 .button-4 {
   appearance: none;
   background-color: #FAFBFC;
@@ -108,6 +105,3 @@
 .button-4:-webkit-details-marker {
   display: none;
 }
-
-
-
