@@ -5,7 +5,6 @@ date:   2018-01-01 23:22:40 +0300
 ---
 
 ---
-title: Biscuit
 github: 
 demo: https://susahberak.github.io/blog/
 author: Ferry Ayunda
