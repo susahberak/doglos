@@ -4,21 +4,6 @@ title:  "Doglos theme for Jekyll"
 date:   2018-01-01 23:22:40 +0300
 ---
 
----
-github: https://github.com/susahberak/blog
-demo: https://susahberak.github.io/blog/
-author: Ferry Ayunda
-date: 2022-09-22
-ssg:
-  - Jekyll
-cms:
-  - No CMS
-archetype:
-  - Single Page
-  - Personal
-description: Doglos is a single-page responsive Jekyll theme.
----
-
 # Doglos theme for Jekyll
 
 [Doglos](http://susahberak.github.io/doglos) is a single-page responsive Jekyll theme. This is the most simple and still-good-looking Jekyll theme that you can find.
