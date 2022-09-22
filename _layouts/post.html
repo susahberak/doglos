@@ -5,8 +5,9 @@ layout: default
         
 {{ content }}
  
-<br>
-<p style="text-align:center;"><a href='{{ site.url }}/'> Beranda</a> | {{ page.title }} </p>       
+<footer>
+<p><a href='{{ site.url }}/'> Beranda</a> | {{ page.title }} </p>  
+</footer>     
 
 {% if site.disqus-id %} {% include comments.html %} {% endif %}
 
