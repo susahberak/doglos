@@ -19,3 +19,7 @@ a:active{color:#000}
 #gravatar{position:relative;float:right;margin-bottom:1em;margin-left:1em;border:1px solid #ddd}
 @media all and (max-width:500px){article{padding:1em}
 body{font-size:1em}}
+.file-cont{background:#eff3f7;position:relative;height:45px;width:300px;display:flex;align-items:center;border-radius:6px}
+.file-cont .label-file{position:absolute;color:#fff;top:0;left:0;background:#dd394c;height:45px;padding:0 16px;border-right:19px solid #eff3f7;display:flex;justify-content:center;align-items:center;border-bottom-left-radius:5px;border-top-left-radius:5px;font-size:14px;cursor:pointer}
+.file-cont .label-file:hover{background:#a0232f}
+.file-cont .input-file{width:100%;outline:0}
