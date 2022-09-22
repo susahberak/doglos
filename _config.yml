@@ -5,7 +5,7 @@ url: 'https://susahberak.github.io/blog/'
 baseurl: 'https://susahberak.github.io/blog/'
 
 markdown: kramdown
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,html"
 highlighter: rouge
 
 kramdown:
