@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html>
-
+<html id="home" lang="en">
 <head>
-    <meta charset='utf-8'>
-    <title>
-        {% if page.title %}
-            {{ page.title }}
-        {% else %} 
-            {{ site.name }} &mdash; {{ site.description }}
-        {% endif %}
-    </title>
+  <title>{% if page.title %} {{ page.title }} {% else %} {{ site.name }} &mdash; {{ site.description }} {% endif %}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+    content="The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology. As a permissive license, it puts only very limited restriction on reuse and has, therefore, an excellent license compatibility.">
+  
+  <script>
+    document.createElement('article');
+    document.createElement('footer');
+  </script>
 
-    {% if site.highlighter %}
-        <link rel='stylesheet' href='{{ site.url }}/assets/css/syntax.css' type='text/css'>
-    {% endif %}
-    
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-
+  {% if site.highlighter %}
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+  {% endif %}
 </head>
 
-<body>
-    {% include header.html %}
 
-    {{ content }}
-<hr>
-    <p><small> <i>Build with <a href="https://jekyllrb.com/">Jekyll</a> and  <a href="https://github.com/cyevgeniy/jekyll-true-minimal/">true minimal theme</a></i> </small></p>
+<body>
+  <article>  
+
+  {{ content }}
+
+  </article>
+
+  {% include footer.html %}
+
 </body>
 </html>
