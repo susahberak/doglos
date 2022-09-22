@@ -5,7 +5,7 @@ date:   2018-01-01 23:22:40 +0300
 ---
 
 ---
-github: 
+github: https://github.com/susahberak/blog
 demo: https://susahberak.github.io/blog/
 author: Ferry Ayunda
 date: 2022-09-22
