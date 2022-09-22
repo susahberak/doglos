@@ -15,4 +15,4 @@ If you prefer to use Github Pages, you do not need to download it, upload files 
 
 ## License
 
-Doglos is derived from currently deprecated theme [MIT](https://github.com/remy/mit-license). Doglos and the previous code where Doglos is derived are distributed with [MIT license](https://github.com/sblisesivdin/biscuit/blob/gh-pages/LICENSE).
+Doglos is derived from currently deprecated theme [MIT](https://github.com/remy/mit-license). Doglos and the previous code where Doglos is derived are distributed with [GPL license](https://github.com/susahberak/blog/blob/master/LICENSE).
