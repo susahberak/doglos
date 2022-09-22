@@ -9,17 +9,18 @@ Ini adalah situs web tempat Anda dapat menambahkan foto ke bingkai.
 Silahkan unggah gambar, aplikasi ini akan otomatis menggabungkan unggahan gambar yang Anda pilih.
 
 <div class="file-cont">
-<label for="image_input" class="label-file">Select File</label>
-<input class="input-file" type="file" name="image_input" id="image_input" multiple>
+<label for="fileInput" class="label-file">Select File</label>
+<input class="input-file" type="file" id="fileInput" multiple>
 </div>
 
 
-<button class="button-4" role="button" onclick="generate()">SUBMIT</button>
-<button class="button-3" role="button" onclick="download()" id="download" disabled>UNDUH</button>
+<button class="button-4" role="button" id="dpwload" onclick="drawImage()">SUBMIT</button>
+<a class="button-3" role="button" href="#" id="dpwload2" download="download.png" style="display: none">UNDUH</a>
 
 <img id="preview" src="images/placeholder.jpg"/>
 <img id="twibbon" src="images/twibbon.png" style="display: none"/>
-<canvas id="canvas"></canvas>
+<canvas id="twibbonbaker"></canvas>
+
 
 
 
