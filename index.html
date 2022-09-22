@@ -12,6 +12,7 @@ layout: default
   <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>     
 {% endfor %}
 
+<p>
 {% if paginator.previous_page %}
 <a href='{{ site.url }}{{ paginator.previous_page_path }}'>Previous</a>
 {% endif %}
@@ -21,4 +22,8 @@ layout: default
 {% if paginator.next_page %}
 <a href='{{ site.url }}{{ paginator.next_page_path }}'>Next</a>
 {% endif %}
+</p>
+
+
+
 
