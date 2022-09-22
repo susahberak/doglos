@@ -49,7 +49,7 @@ let init = () => {
 }
 
 let setTwibbon = () => {
-    target2.src = '{{ site.url }}/images/twibbon.png';
+    target2.src = '/images/twibbon.png';
 }
 
 let imageReaderOnLoad = () => {
