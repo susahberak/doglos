@@ -1,7 +1,7 @@
 name: "Doglos"
 description: "Just another a blog"
 
-url: 'https://susahberak.github.io/doglos/' 
+url: 'https://doglos.pages.dev/' 
 baseurl: '/'
 
 markdown: kramdown
