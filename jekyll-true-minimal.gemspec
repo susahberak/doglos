@@ -4,11 +4,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-true-minimal"
   spec.version       = "1.0.0"
-  spec.authors       = ["cyevgeniy"]
+  spec.authors       = ["bungferry"]
   spec.email         = [""]
 
   spec.summary       = "Minimal and ascetic theme for jekyll."
-  spec.homepage      = "https://cyevgeniy.github.io/jekyll-true-minimal/"
+  spec.homepage      = "https://susahberak.github.io/blog/"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
