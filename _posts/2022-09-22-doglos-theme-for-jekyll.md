@@ -1,4 +1,10 @@
 ---
+layout: post
+title:  "Doglos theme for Jekyll"
+date:   2018-01-01 23:22:40 +0300
+---
+
+---
 title: Biscuit
 github: 
 demo: https://susahberak.github.io/blog/
